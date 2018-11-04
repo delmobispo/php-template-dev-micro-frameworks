@@ -5,13 +5,12 @@ namespace App\Configs;
 use App\Helpers\Mensagem;
 use App\Configs\EnvConfig;
 use App\Configs\RoutesConfig;
-use App\Configs\SegurancaConfig;
 use Tuupola\Middleware\CorsMiddleware;
 use Tuupola\Middleware\JwtAuthentication;
 use Tuupola\Middleware\JwtAuthentication\RequestPathRule;
 use Tuupola\Middleware\JwtAuthentication\RequestMethodRule;
 
-class SegurancaConfig{
+class MiddlewaresConfig{
 
     const JWT_ATTRIBUTE_GET = 'jwt';
 
